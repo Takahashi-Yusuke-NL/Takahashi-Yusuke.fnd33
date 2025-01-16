@@ -3,7 +3,7 @@
 
 
 function getImage()　{
-  const arr = ['Ima/cat1.jpeg', 'Ima/cat2.jpeg', 'Ima/cat3.jpg', 'Ima/cat4.jpg' ];
+  const arr = ['cat1.jpeg', 'cat2.jpeg', 'cat3.jpg', 'cat4.jpg' ];
   const obj = document.getElementById("pic");
   const a = Math.floor(Math.random() * arr.length);
   obj.src = arr[a];
