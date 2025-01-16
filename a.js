@@ -3,7 +3,8 @@
 
 
 function getImage()　{
-  const arr = ['cat1.jpeg', 'cat2.jpeg', 'cat3.jpg', 'cat4.jpg' ];
+  const arr = ['https://github.com/Takahashi-Yusuke-NL/Takahashi-Yusuke.fnd33/blob/main/cat1.jpeg?raw=true', 'https://github.com/Takahashi-Yusuke-NL/Takahashi-Yusuke.fnd33/blob/main/cat2.jpeg?raw=true',
+               'https://github.com/Takahashi-Yusuke-NL/Takahashi-Yusuke.fnd33/blob/main/cat3.jpg?raw=true', 'https://github.com/Takahashi-Yusuke-NL/Takahashi-Yusuke.fnd33/blob/main/cat4.jpg?raw=true' ];
   const obj = document.getElementById("pic");
   const a = Math.floor(Math.random() * arr.length);
   obj.src = arr[a];
