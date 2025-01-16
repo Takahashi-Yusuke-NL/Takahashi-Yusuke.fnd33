@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="theme-color" content="#000000">
+<link href="a.css" rel="stylesheet">
+
+</head>
+<body class="backgroundImage">
+  <div class="header"><input type="button" value="猫" onclick="getImage()"></div>
+  <img id="pic">
+
+  <p class="wordbackground" id="target"><font color="red">click me</font></p>
+
+  <div class="calendar_area">
+    <div class="calendar_header">
+      <p id="year_month_lebel">
+    </div>
+  </div>
+  <div class="calendar_area" ><p class="calendarPosition"></p>
+    <div class="calendar_header">
+      <p id="year_month_label"></p>
+      <button id="prev_year_btn" onClick="prev_year()"><i class="fas fa-angle-double-left">前年</i></button>
+      <button id="prev_month_btn" onClick="prev_month()"><i class="fas fa-angle-left">前月</i></button>
+      <button id="now_btn" onClick="now_month()"><i class="fas fa-circle">今月</i></button>
+      <button id="next_month_btn" onClick="next_month()"><i class="fas fa-angle-right">来月</i></button>
+      <button id="next_year_btn" onClick="next_year()"><i class="fas fa-angle-double-right">来年</i></button>
+    </div>
+    <div id="calendar_body"></div><br><br>
+
+    <div class="rectangle">
+      <input class="textbox" type="number" id="wani"><br>
+      <input class="text-button" type="button" id="btn1" value="ワニ放出!" onclick="btnclick">
+    </div>
+  <div class="rectangle2" id="gators">
+    </div>
+  <script src="a.js" type="text/javascript"></script>
+
+</body>
+</html>
