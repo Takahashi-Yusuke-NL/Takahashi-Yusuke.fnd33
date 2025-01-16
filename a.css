@@ -1,0 +1,145 @@
+.header {
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    place-self: center;
+    
+}
+
+.backgroundImage {
+    background-image: url(Ima/human3.jpg);
+    background-position: 60% 25%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.wordbackground {
+    width: 70px;
+    height: 20px;
+    background-color: blue;
+    place-self: left;
+}
+
+.wordbackground2 {
+    width: 45px;
+    height: 20px;
+    background-color: white;
+    place-self: left;
+}
+
+
+
+/* ヘッダー（年月とボタン） */
+div.calendar_header {
+    text-align: center;
+  }
+  
+  /* 年月 */
+  div.calendar_header > p#year_month_label {
+    margin: 20px 20px 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* ボタン */
+  button#prev_year_btn,
+  button#prev_month_btn,
+  button#now_btn,
+  button#next_month_btn,
+  button#next_year_btn {
+    width: 4em;
+    height: 2em;
+  }
+  
+  /* カレンダーテーブル */
+  table.calendar_tbl {
+    min-width: 600px;
+    margin: 20px auto 0;
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+  
+  /* カレンダーテーブルの見出し（曜日） */
+  table.calendar_tbl tr th {
+    text-align: center;
+    border: 1px solid #000;
+    background-color: gray;
+    
+  }
+  
+  /* カレンダーテーブルの見出し（日曜日） */
+  table.calendar_tbl tr th:first-child {
+    color: #f00;
+  }
+  
+  /* カレンダーテーブルの見出し（土曜日） */
+  table.calendar_tbl tr th:last-child {
+    color: #00f;
+  }
+  
+  /* カレンダーテーブルの日付部分 */
+  table.calendar_tbl tr td {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #000;
+    height: 3em;
+    background-color: white;
+  }
+  
+  /* カレンダーテーブルで日付が入らない部分 */
+  table.calendar_tbl tr td.no_date {
+    background-color: #fadbda;
+    color: #00f;
+  }
+  
+  /* カレンダーテーブルの日付の部分（日曜日） */
+  table.calendar_tbl tr td:first-child {
+    z-index: 10;
+    background-color:  red;
+    color: orange;
+  }
+  
+  /* カレンダーテーブルの日付の部分（土曜日） */
+  table.calendar_tbl tr td:last-child {
+    background-color: #ddeeff;
+    color: #00f;
+  }
+  
+  /* マウスオーバー時 */
+  table_calendar_tbl tr td.with_date:hover {
+    background-color: #fadfc0;
+  }
+
+  .rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: green; 
+    place-self: center;
+}
+
+.rectangle2 {
+    width: 300px;
+    background-color: blue; 
+    place-self: center;
+}
+
+.textbox {
+    width: 70px;
+    height: 25px;
+    background-color: white;
+    place-self: center;
+}
+
+.button {
+    width: 75px;
+    height: 25px;
+    background-color: gray;
+}
+
+.text-button {
+    display: block;
+    cursor: pointer;
+    width: 70px;
+    text-align: center;
+    background-color: grey;
+}
